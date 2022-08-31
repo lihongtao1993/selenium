@@ -23,7 +23,7 @@ public class SightDetailSafari {
 
     @BeforeTest
     public void setDriver(){
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.safaridriver().setup();
     }
 
     @BeforeMethod
